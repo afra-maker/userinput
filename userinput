@@ -1,0 +1,22 @@
+import java.util.*;
+class AttendenceNumber{
+		char name;
+ 	int Hoursnum,studentID;
+ 	double sum=0,avg,mod;
+
+Scanner sc=new Scanner(System.in);
+
+void getdata(){
+	System.out.println("please enter id for student1");
+ 	studentID=sc.nextInt();
+ 	System.out.println("please enter name for student1");
+    name=sc.next().charAt(0);
+ 	System.out.println("please number of hours attend in week1");
+ 	Hoursnum=sc.nextInt();
+ 	System.out.println("please number of hours attend in week2");
+ 	Hoursnum=sc.nextInt();
+ 	System.out.println("please number of hours attend in week3");
+ 	Hoursnum=sc.nextInt();
+ 	System.out.println("please number of hours attend in week4");
+ 	Hoursnum=sc.nextInt();
+ 
