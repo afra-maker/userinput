@@ -20,3 +20,7 @@ void getdata(){
  	System.out.println("please number of hours attend in week4");
  	Hoursnum=sc.nextInt();
  
+void sum(){
+System.out.println("Sum = " + (Hoursnum + Hoursnum));
+}
+
